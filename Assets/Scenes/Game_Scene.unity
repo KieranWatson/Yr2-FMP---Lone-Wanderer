@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 233016475}
   - component: {fileID: 233016476}
   m_Layer: 0
-  m_Name: B_Hills2
+  m_Name: Layer-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 330803817}
   - component: {fileID: 330803818}
   m_Layer: 0
-  m_Name: F_Bushes
+  m_Name: Layer-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -935,6 +935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 335266173}
+  - component: {fileID: 335266174}
   m_Layer: 0
   m_Name: Frame 3
   m_TagString: Untagged
@@ -968,6 +969,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335266174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335266172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ce10cc8e08b9a4594e279456beef3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 498715436}
 --- !u!1 &374137824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1090,7 @@ GameObject:
   - component: {fileID: 430388388}
   - component: {fileID: 430388389}
   m_Layer: 0
-  m_Name: B_Hills1
+  m_Name: Layer-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1772,7 +1786,7 @@ GameObject:
   - component: {fileID: 674498662}
   - component: {fileID: 674498663}
   m_Layer: 0
-  m_Name: B_Bushes
+  m_Name: Layer-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1868,7 +1882,7 @@ GameObject:
   - component: {fileID: 738427470}
   - component: {fileID: 738427471}
   m_Layer: 0
-  m_Name: B_Cliff
+  m_Name: Layer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2139,7 +2153,7 @@ GameObject:
   - component: {fileID: 833530740}
   - component: {fileID: 833530741}
   m_Layer: 0
-  m_Name: B_Hills2
+  m_Name: Layer-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2235,7 +2249,7 @@ GameObject:
   - component: {fileID: 869208583}
   - component: {fileID: 869208582}
   m_Layer: 0
-  m_Name: Layer-7
+  m_Name: Layer-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2505,7 +2519,7 @@ GameObject:
   - component: {fileID: 958909438}
   - component: {fileID: 958909437}
   m_Layer: 0
-  m_Name: Layer-4
+  m_Name: Layer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2680,6 +2694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 971179550}
+  - component: {fileID: 971179551}
   m_Layer: 0
   m_Name: Side Area 2
   m_TagString: Untagged
@@ -2711,6 +2726,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971179551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971179549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ce10cc8e08b9a4594e279456beef3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 498715436}
 --- !u!1 &981810632
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2751,7 @@ GameObject:
   - component: {fileID: 981810634}
   - component: {fileID: 981810635}
   m_Layer: 0
-  m_Name: B_Hills3
+  m_Name: Layer-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2819,7 +2847,7 @@ GameObject:
   - component: {fileID: 994532287}
   - component: {fileID: 994532288}
   m_Layer: 0
-  m_Name: F_Bushes
+  m_Name: Layer-0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3328,7 +3356,7 @@ GameObject:
   - component: {fileID: 1087529817}
   - component: {fileID: 1087529818}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: Layer-10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3424,7 +3452,7 @@ GameObject:
   - component: {fileID: 1099711703}
   - component: {fileID: 1099711702}
   m_Layer: 0
-  m_Name: B_Bushes
+  m_Name: Layer-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3616,7 +3644,7 @@ GameObject:
   - component: {fileID: 1142814614}
   - component: {fileID: 1142814613}
   m_Layer: 0
-  m_Name: Layer-8
+  m_Name: Layer-9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3808,7 +3836,7 @@ GameObject:
   - component: {fileID: 1153572298}
   - component: {fileID: 1153572297}
   m_Layer: 0
-  m_Name: Layer-5
+  m_Name: Layer-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4323,6 +4351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1279934397}
+  - component: {fileID: 1279934398}
   m_Layer: 0
   m_Name: Frame 4
   m_TagString: Untagged
@@ -4355,6 +4384,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279934398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279934396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ce10cc8e08b9a4594e279456beef3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parallaxCamera: {fileID: 498715436}
 --- !u!1 &1293018470
 GameObject:
   m_ObjectHideFlags: 0
@@ -4503,7 +4545,7 @@ GameObject:
   - component: {fileID: 1324534844}
   - component: {fileID: 1324534843}
   m_Layer: 0
-  m_Name: Layer-6
+  m_Name: Layer-7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4599,7 +4641,7 @@ GameObject:
   - component: {fileID: 1371382442}
   - component: {fileID: 1371382441}
   m_Layer: 0
-  m_Name: Layer-3
+  m_Name: Layer-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4695,7 +4737,7 @@ GameObject:
   - component: {fileID: 1428859460}
   - component: {fileID: 1428859459}
   m_Layer: 0
-  m_Name: B_Cliff
+  m_Name: Layer-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4791,7 +4833,7 @@ GameObject:
   - component: {fileID: 1437120154}
   - component: {fileID: 1437120155}
   m_Layer: 0
-  m_Name: B_Hills3
+  m_Name: Layer-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5218,7 +5260,7 @@ GameObject:
   - component: {fileID: 1534596470}
   - component: {fileID: 1534596471}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: Layer-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5314,7 +5356,7 @@ GameObject:
   - component: {fileID: 1604512086}
   - component: {fileID: 1604512087}
   m_Layer: 0
-  m_Name: B_Bushes
+  m_Name: Layer-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5737,7 +5779,7 @@ GameObject:
   - component: {fileID: 1723626858}
   - component: {fileID: 1723626859}
   m_Layer: 0
-  m_Name: B_Clouds2
+  m_Name: Layer-10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6431,7 +6473,7 @@ GameObject:
   - component: {fileID: 1895392122}
   - component: {fileID: 1895392123}
   m_Layer: 0
-  m_Name: B_Hills1
+  m_Name: Layer-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6527,7 +6569,7 @@ GameObject:
   - component: {fileID: 1959167972}
   - component: {fileID: 1959167973}
   m_Layer: 0
-  m_Name: B_Clouds1
+  m_Name: Layer-8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6700,7 +6742,7 @@ GameObject:
   - component: {fileID: 1989612238}
   - component: {fileID: 1989612239}
   m_Layer: 0
-  m_Name: B_Clouds1
+  m_Name: Layer-9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7041,7 +7083,7 @@ GameObject:
   - component: {fileID: 2037713609}
   - component: {fileID: 2037713610}
   m_Layer: 0
-  m_Name: B_Clouds2
+  m_Name: Layer-9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7137,7 +7179,7 @@ GameObject:
   - component: {fileID: 2068420889}
   - component: {fileID: 2068420890}
   m_Layer: 0
-  m_Name: B_Cliff
+  m_Name: Layer-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
