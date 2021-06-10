@@ -1966,6 +1966,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxFactor: 0
+--- !u!1 &773980136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773980137}
+  m_Layer: 0
+  m_Name: Feet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773980137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773980136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1293018474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &785859905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2613,7 +2643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964046051}
   - component: {fileID: 964046052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4515,7 +4545,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03, y: -2.25, z: 0}
   m_LocalScale: {x: 0.47508636, y: 0.47508636, z: 0.47508636}
-  m_Children: []
+  m_Children:
+  - {fileID: 773980137}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4531,8 +4562,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515675f312084fb468e744003736efe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  feet: {fileID: 773980137}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 256
+  moveSpeed: 6
   jumpForce: 10
+  rb: {fileID: 1293018471}
 --- !u!1 &1324534841
 GameObject:
   m_ObjectHideFlags: 0
@@ -5023,7 +5059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1443105129}
   - component: {fileID: 1443105130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5450,7 +5486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1652691596}
   - component: {fileID: 1652691597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6836,7 +6872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2016441074}
   - component: {fileID: 2016441075}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
